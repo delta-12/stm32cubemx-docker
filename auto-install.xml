@@ -8,7 +8,7 @@
     </com.st.microxplorer.install.MXTargetPanel>
     <com.st.microxplorer.install.MXShortcutPanel id="shortcut.panel">
         <createMenuShortcuts>false</createMenuShortcuts>
-        <programGroup>STMicroelectronics\STM32Cube\STM32CubeMX_6_13_0</programGroup>
+        <programGroup>STMicroelectronics\STM32Cube\STM32CubeMX_6_14_1</programGroup>
         <createDesktopShortcuts>false</createDesktopShortcuts>
         <createStartupShortcuts>false</createStartupShortcuts>
     </com.st.microxplorer.install.MXShortcutPanel>

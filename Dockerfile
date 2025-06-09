@@ -3,10 +3,10 @@ FROM debian:stable-slim AS cube-install
 RUN apt update
 RUN apt install -y unzip
 WORKDIR /STM32CubeMX
-COPY en.stm32cubemx-lin-v6-13-0.zip en.stm32cubemx-lin-v6-13-0.zip
+COPY en.stm32cubemx-lin-v6-14-1.zip en.stm32cubemx-lin-v6-14-1.zip
 COPY auto-install.xml auto-install.xml
-RUN unzip en.stm32cubemx-lin-v6-13-0.zip
-RUN ./SetupSTM32CubeMX-6.13.0 auto-install.xml
+RUN unzip en.stm32cubemx-lin-v6-14-1.zip
+RUN ./SetupSTM32CubeMX-6.14.1 auto-install.xml
 
 # Copy STM32CubeMX to image with graphical dependencies
 FROM debian:stable-slim AS cube-initialize
